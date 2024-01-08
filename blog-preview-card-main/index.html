@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body{
+      text-align: center;
+      background-color: hsl(47, 88%, 63%);
+    }
+    .center {
+     
+    }
+    img{
+      height: 150px;
+      width: 250px;
+      float: left;
+    }
+
+    @media (min-width: 375px) {
+      .learn {
+        background-color: hsl(61, 88%, 63%);
+        display: inline-block;
+        float: left;
+        
+      }
+      .normal{
+        display: block;
+        float: left;
+        clear: both;
+        font-size: small;
+        margin-top: auto;
+        font-size: 16px;
+        font-weight: lighter;
+      }
+      .border {
+
+      position:relative;
+      border-radius: 15px;
+      display: inline-block;
+      margin: 150px;
+      background-color: white;
+      height: 400px;
+      width: 250px;
+      text-align: center;
+      padding: 20px 20px;
+      }
+      .yellow{
+        font-size: 20px;
+        float: left;
+        color:hsl(47, 88%, 63%) ;
+        font-weight: bolder;
+        text-align: left;
+        margin-top: auto;
+      }
+      .about{
+        float: left;
+        text-align: left;
+        font-size: 13px;
+        margin-top: auto;
+        color: hsl(0, 0%, 50%);
+      }
+      #profile{
+        height: 30px;
+        width: 35px;
+      }
+      .pic{
+        display: inline-block;
+        float: left;
+      }
+
+
+    }
+  </style>
+</head>
+<body>
+  <div class="border">
+
+    <img src="./assets/images/final pic.jpg">
+
+    <h3 class="learn">Learning</h3>
+
+    <p class="normal">Published 21 Dec 2023</p>
+
+    <p class="yellow">HTML & CSS foundations</p>
+
+    <p class="about">These languages are the backbone of every website, defining structure, content, and presentation.
+    </p>
+
+    <div class="pic">
+      <img id="profile" src="./assets/images/image-avatar.webp">
+      
+      <span>Greg Hooper</span>
+    </div>
+  </div>
